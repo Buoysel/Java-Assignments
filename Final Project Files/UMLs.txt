@@ -1,0 +1,28 @@
+Test
+------------------
+questions: String[][]
+questionNumbers: Integer[]
+hasAnswered: boolean[]
+answers: String[]
+functions: UsefulFunctions()
+------------------
+Test()
+readTestFile(): void
+createTest(): void
+showTest(): void
+checkAnswers(): void
+revisitQuestions(): void
+displayQuestion(index: int): void 
+recieveAnswer(index: int): void 
+submitTest(): void 
+------------------------------------------------------
+
+
+UsefulFunctions
+------------------
+------------------
+UsefulFunctions()
+contains(array: Integer[], num: Integer): boolean 
+tryParseInt(value: String): boolean
+isBetweenOneAndTen(x: int): boolean 
+isBetweenAandC(c: char): boolean
